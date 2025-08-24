@@ -43,6 +43,20 @@ Use the plugin's generator to create new projects.
 
 To generate a new application, use:
 
+generate components
+
+nx g @schematics/angular:component pages/home --project=frontend
+nx g @schematics/angular:component pages/login --project=frontend
+
+generete service 
+nx g @schematics/angular:service services/auth --project=frontend
+
+genereta guardRoute
+nx g @schematics/angular:guard guards/auth --project=frontend
+
+
+
+
 ```sh
 npx nx g @nx/angular:app demo
 ```
